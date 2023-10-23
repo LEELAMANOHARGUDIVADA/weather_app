@@ -102,3 +102,109 @@ body{
     color: red;
     display: none;
 }
+
+@media only screen and  (max-width: 1800px){
+    .container{
+        margin: 100px auto 0;
+
+    }
+}
+@media only screen and  (max-width: 500px){
+    .container{
+        width: 90%;
+        margin: 100px auto 0;
+        padding: 15px;
+    }
+    .search-box input{
+        height: 40px;
+        max-width: 200px;
+        border-radius: 10px;
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    .search-box button{
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .search-box button i{
+        font-size: 15px;
+    }
+    .weather .weather-icon{
+        width: 120px;
+    }
+    .weather h1{
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .weather h2{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .weather-details .col img{
+        width: 50px;
+    }
+    .col .humidity{
+        font-size: 15px;
+    }
+    .col .wind{
+        font-size: 15px;
+    }
+    .col p{
+        font-size: 15px;
+    }
+
+
+}
+@media only screen and  (max-width: 320px){
+    .container{
+        width: 100%;
+        margin: 50px auto 0;
+        padding: 15px;
+    }
+    .search-box input{
+        height: 40px;
+        max-width: 180px;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+    .search-box button{
+        padding: 8px;
+        margin-left: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .search-box button i{
+        font-size: 15px;
+    }
+    .weather .weather-icon{
+        width: 120px;
+    }
+    .weather h1{
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .weather h2{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .weather-details .col img{
+        width: 50px;
+    }
+    .col .humidity{
+        font-size: 15px;
+    }
+    .col .wind{
+        font-size: 15px;
+    }
+    .col p{
+        font-size: 15px;
+    }
+    
+}
